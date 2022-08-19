@@ -1,0 +1,17 @@
+.image {
+    height: 33vh;
+    width: 33vh;
+    background: url(./assets/3.png) no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    float: left;
+    margin-right: 2rem;
+
+}
+@media screen and (max-width: 980px) {
+    .image {
+        margin-bottom: 1rem;
+        min-width: 100vw;
+        height: 360px;
+    }
+}

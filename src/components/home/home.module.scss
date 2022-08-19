@@ -42,6 +42,7 @@
 .todo::after {
     content: "сделаю из обезьяны человека";
     font-size: 3rem;
+    line-height: 4rem;
     animation: todo 10s linear infinite;
 }
 
@@ -50,9 +51,9 @@
         content: "научу крокодила летать";
     }
     50% {
-//        content: "куплю мужу пивка";
+        content: "буду всегда любить своего мужа";
     }
     75% {
-//        content: "буду хорошей девочкой";
+        content: "буду хорошей девочкой";
     }
 }
