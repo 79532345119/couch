@@ -52,7 +52,13 @@
     outline: none;
     position: relative;
     width: 30px;
-    z-index: 9;
+    z-index: 9;    
+    &:hover span{
+        background-color: vars.$color-primary-hover;
+    }
+    &:active span {
+        background-color: rgba(vars.$color-primary-rgb, 0.6);
+    }
 }
 .menu_toggler span {
     background-color: vars.$color-primary;

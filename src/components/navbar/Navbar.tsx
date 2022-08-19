@@ -10,7 +10,7 @@ const Navbar = () => {
     setIsActive(!isActive)
   }
   const closeMenu = () => {
-    console.log("click");
+    setIsActive(false);
   };
   return (
     <nav className={styles.main}>
