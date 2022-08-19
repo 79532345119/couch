@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/79532345119/couch/static/css/main.6d86d350.css",
+    "main.js": "/79532345119/couch/static/js/main.86fc9b65.js",
+    "static/media/coaching.jpg": "/79532345119/couch/static/media/coaching.78a7cb8aac294f985be7.jpg",
+    "static/media/3.png": "/79532345119/couch/static/media/3.285b638805d9b938f3c0.png",
+    "static/media/fairy.svg": "/79532345119/couch/static/media/fairy.23986fb1bbfa7ad7b25ee2abb6281357.svg",
+    "static/media/instagram-color.svg": "/79532345119/couch/static/media/instagram-color.6e9fa1a4d2b56437ad00daa88530a177.svg",
+    "static/media/whatsapp-brands.svg": "/79532345119/couch/static/media/whatsapp-brands.a8146b2a45fd822ea3efc45b0ad9927e.svg",
+    "static/media/vk-brands.svg": "/79532345119/couch/static/media/vk-brands.0dcba209f0d59483582238935ab2d224.svg",
+    "index.html": "/79532345119/couch/index.html",
+    "static/media/facebook-brands.svg": "/79532345119/couch/static/media/facebook-brands.b26c765c563bda77db1722bf0c9bae7f.svg",
+    "main.6d86d350.css.map": "/79532345119/couch/static/css/main.6d86d350.css.map",
+    "main.86fc9b65.js.map": "/79532345119/couch/static/js/main.86fc9b65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d86d350.css",
+    "static/js/main.86fc9b65.js"
+  ]
+}
