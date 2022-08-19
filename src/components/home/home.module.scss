@@ -1,0 +1,58 @@
+@use '../../DocBasic/vars.scss';
+
+
+.main {
+    height: 100vh;
+    min-height: 280px;
+    background: url(./assets/coaching.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+  } 
+
+.inner_width {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 40px 40px 40px;
+    text-align: center;
+}
+.content {
+    align-items: center;
+    color: vars.$color-secondary;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+.content h1 {
+    font-size: 4rem;
+    line-height: 0;
+}
+.content h2 {
+    font-size: 2rem;
+}
+.todo {
+    margin-bottom: 60px;
+}
+.todo::after {
+    content: "сделаю из обезьяны человека";
+    font-size: 3rem;
+    animation: todo 10s linear infinite;
+}
+
+@keyframes todo {
+    25% {
+        content: "научу крокодила летать";
+    }
+    50% {
+//        content: "куплю мужу пивка";
+    }
+    75% {
+//        content: "буду хорошей девочкой";
+    }
+}

@@ -1,0 +1,9 @@
+declare module '*.jpg';
+declare module '*.jpg?format=webp';
+declare module '*.png';
+declare module '*.png?format=webp';
+declare module '*.webp';
+declare module '*.svg';
+declare module '*.module.scss';
+declare module '@flussonic/flussonic-mse-player';
+declare module 'whatwg-fetch';

@@ -1,0 +1,37 @@
+.main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    max-width: 1300px;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.row {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-around;
+}
+.row a {
+    margin-left: 30px;
+}
+.brand {
+    height: 32px;
+    width: 32px;
+}
+.vk {
+    svg {
+        fill: #1E88E5;
+    }
+}
+.facebook {
+    svg {
+        fill: #4267B2;
+    }
+}
+.whatsapp {
+    svg {
+        fill: #25D366;
+    }
+}

@@ -1,0 +1,10 @@
+@use "../../DocBasic/vars.scss";
+
+.main {
+  height: 100vh;
+  min-height: 500px;
+  background: url(./assets/coaching.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: top;
+}

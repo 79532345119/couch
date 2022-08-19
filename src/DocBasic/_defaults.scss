@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a,
+abbr,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+button,
+canvas,
+caption,
+cite,
+code,
+details,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+header,
+hgroup,
+html,
+hr,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+main,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+ul,
+var,
+video {
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+/* body,
+html {
+    min-height: 100%;
+} */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: "";
+    content: none;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+button {
+    font: inherit;
+    line-height: 1;
+    outline: 0;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 0;
+}
+
+button * {
+    pointer-events: none;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-size: 14px;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+html {
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+input {
+    font: inherit;
+    line-height: 1;
+    outline: 0;
+
+    &::placeholder {
+        opacity: 1;
+    }
+    &:focus {
+        outline: 0;
+    }
+    &[type="email"],
+    &[type="tel"],
+    &[type="text"] {
+        appearance: none;
+    }
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+a img {
+    border: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+optgroup {
+    font: inherit;
+    line-height: 1;
+    outline: 0;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+picture {
+    display: inline-block;
+
+    img {
+        display: block;
+    }
+}
+
+select {
+    font: inherit;
+    line-height: 1;
+    outline: 0;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea {
+    appearance: none;
+    font: inherit;
+    line-height: 1;
+    outline: 0;
+
+    &::placeholder {
+        opacity: 1;
+    }
+    &:focus {
+        outline: 0;
+    }
+}
