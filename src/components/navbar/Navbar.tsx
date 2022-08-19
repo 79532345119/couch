@@ -2,8 +2,13 @@ import React, { useState } from "react";
 import styles from "./navbar.module.scss";
 import { Link } from "react-scroll";
 import { ReactComponent as LogoIcon } from "./assets/fairy.svg";
+import classNames from "classnames";
 
 const Navbar = () => {
+  const [isActive, setIsActive] = useState(false);
+  const toggleMenu = () => {
+    setIsActive(!isActive)
+  }
   const closeMenu = () => {
     console.log("click");
   };
@@ -13,12 +18,12 @@ const Navbar = () => {
         <Link to="/" className={styles.logo}>
           <LogoIcon />
         </Link>
-        <button className={styles.menu_toggler}>
+        <button className={classNames(styles.menu_toggler, {[styles.active]:isActive}) } onClick={toggleMenu}>
           <span></span>
           <span></span>
           <span></span>
         </button>
-        <ul className={styles.nav_menu}>
+        <ul className={classNames(styles.nav_menu, {[styles.active]:isActive}) }>
           <li className={styles.nav_menu_item}>
             <Link
               to="home"
