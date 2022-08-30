@@ -5,13 +5,22 @@
     background-attachment:scroll;
     background-size: cover;
     float: left;
-    margin-right: 2rem;
+    margin-right: 1rem;
 
 }
 @media screen and (max-width: 980px) {
     .image {
+        background-size: cover;
         margin-bottom: 1rem;
         min-width: 100vw;
         height: 360px;
+    }
+}
+@media (orientation: landscape) and (max-width: 980px) {
+    .image {
+        background-size: contain;
+        margin-bottom: 0;
+        min-width: 0;
+        width: 100vh;
     }
 }
